@@ -1,0 +1,112 @@
+//GLÖM EJ GÖRA ALLT I REM
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+ul {
+    text-align: center;
+}
+
+.navbar-nav {
+    width: 100%;
+    > li {
+        /*   REmove these two to get hamburger menu in to one*/
+        float: none;
+        display: inline-block;
+        > a {
+            font-family: "Poppins";
+            font-size: 12px;
+        }
+    }
+}
+
+.navbar-fixed-top {
+    background: rgba(38, 38, 38, 0.9);
+    border-color: transparent;
+}
+
+.flex-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.flex-items {
+    width: 350px;
+    height: 450px;
+    border: 10px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+}
+
+.mountainimage {
+    min-height: 100%;
+    min-width: 1024px;
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+    /* Specific to this particular image */
+    img.mountainimage {
+        left: 50%;
+        margin-left: -512px;
+        /* 50% */
+    }
+}
+
+.img-rounded {
+    top: 200px;
+    position: relative;
+    border-radius: 50%;
+    border: white 4px solid;
+}
+
+.rubrik {
+    color: white;
+    font-size: 7rem;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: 250px;
+}
+
+.ingress {
+    color: white;
+    font-size: 1.5rem;
+    font-family: "Poppins";
+    text-align: center;
+    margin-top: -10px;
+}
+
+.linklogo {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    height: 35px;
+    width: auto;
+}
+
+.githublogo {
+    position: absolute;
+    right: 70px;
+    bottom: 10px;
+    height: 35px;
+    width: auto;
+}

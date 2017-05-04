@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+.navbar-nav {
+  width: 100%;
+  text-align: center; }
+  .navbar-nav > li {
+    float: none;
+    display: inline-block; }
+    .navbar-nav > li > a {
+      font-family: "Poppins";
+      font-size: 12px;
+      transition: 0.2s; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-fixed-top {
+  background: #262626;
+  border-color: transparent; }
+
+.color-container {
+  border-top: 70px solid white;
+  border-left: 20px solid white;
+  border-right: 20px solid white;
+  border-bottom: 20px solid white;
+  background: #FF5851;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #FF5851 0%, #FF5851 50%, #f6f6f6 50%, #f6f6f6 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #FF5851), color-stop(50%, #FF5851), color-stop(50%, #f6f6f6), color-stop(100%, #f6f6f6));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, #FF5851 0%, #FF5851 50%, #f6f6f6 50%, #f6f6f6 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #FF5851 0%, #FF5851 50%, #f6f6f6 50%, #f6f6f6 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #FF5851 0%, #FF5851 50%, #f6f6f6 50%, #f6f6f6 100%);
+  /* IE10+ */
+  background: linear-gradient(to right, #FF5851 0%, #FF5851 50%, #f6f6f6 50%, #f6f6f6 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF5851', endColorstr='#f6f6f6',GradientType=1 );
+  /* IE6-9 */
+  height: 100vh;
+  width: 100vw; }
+
+h1 {
+  margin-top: 150px;
+  font-family: "Poppins";
+  font-size: 100px;
+  text-align: center;
+  color: #000; }
+
+p {
+  font-family: "Poppins";
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px; }
+
+.container-fluid {
+  margin-top: 50px; }
+
+.row {
+  margin-left: 0.5%;
+  margin-right: 1.25%;
+  border-top: 1px #A6A5A3 solid;
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+.col-sm-4 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.col-sm-8 {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+.text-holder {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-family: "Poppins";
+  font-size: 13px;
+  text-align: center;
+  line-height: 25px; }
+
+.img-rounded {
+  border-radius: 50%;
+  margin-bottom: 50px;
+  border: 3px solid #FF5851; }
+
+h2 {
+  color: #FF5851;
+  text-align: center;
+  font-family: "Poppins";
+  font-size: 48px;
+  text-transform: uppercase; }
+
+.listing {
+  list-style: none; }
+
+.listing::first-letter {
+  color: #FF5851; }
+
+.center {
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  top: 25%;
+  position: absolute;
+  text-align: center;
+  top: 90%; }
+
+.glyphicon-menu-down {
+  font-size: 50px;
+  bottom: 50px;
+  -webkit-animation: jump 2s ease 1s infinite normal;
+  animation: jump 2 ease 1s infinite normal;
+  overflow: hidden; }
+
+@-webkit-keyframes jump {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  20% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px); }
+  50% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px); }
+  80% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); } }
+@keyframes jump {
+  0% {
+    transform: translateY(0); }
+  20% {
+    transform: translateY(0); }
+  40% {
+    transform: translateY(-30px); }
+  50% {
+    transform: translateY(0); }
+  60% {
+    transform: translateY(-15px); }
+  80% {
+    transform: translateY(0); }
+  100% {
+    transform: translateY(0); } }
+.logos {
+  height: 30px;
+  width: auto;
+  float: right;
+  margin-top: 15px;
+  margin-left: 15px; }
+
+@media only screen and (max-width: 600px) {
+  h1 {
+    margin-top: 80px;
+    font-family: "Poppins";
+    font-size: 70px;
+    text-align: center;
+    color: #000; } }
+footer {
+  border-top: 1px #A6A5A3 solid;
+  color: #000;
+  font-size: 32px;
+  margin-left: 30px;
+  margin-right: 30px;
+  height: 70px; }
+
+/*# sourceMappingURL=about.css.map */
