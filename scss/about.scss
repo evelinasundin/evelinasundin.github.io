@@ -203,6 +203,13 @@ h2 {
   }
 }
 
+.ingress {
+      font-family: "Poppins";
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .logos {
     height: 30px;
     width: auto;
@@ -218,6 +225,27 @@ h2 {
     font-size: 70px;
     text-align: center;
     color: #000;
+}
+
+.listing::first-letter {
+  visibility: none;
+}
+}
+
+@media only screen and (max-width : 400px) {
+        h1 {
+    margin-top: 80px;
+    font-family: "Poppins";
+    font-size: 50px;
+    text-align: center;
+    color: #000;
+}
+ .ingress {
+      font-size: 12px;
+    }
+
+  .listing::first-letter {
+  display: none;
 }
 }
 
