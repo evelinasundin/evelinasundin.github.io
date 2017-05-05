@@ -110,3 +110,16 @@ ul {
     height: 35px;
     width: auto;
 }
+
+@media only screen and (max-width : 400px) {
+.rubrik {
+    font-size: 50px;
+    margin-top: 200px;
+}
+ .ingress {
+      font-size: 12px;
+    }
+    .img-rounded {
+        top: 150px;
+    }
+}

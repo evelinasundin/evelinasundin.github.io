@@ -183,10 +183,7 @@ h2 {
     color: #000; }
 
   .ingress {
-    font-size: 12px; }
-
-  .listing::first-letter {
-    display: none; } }
+    font-size: 12px; } }
 footer {
   border-top: 1px #A6A5A3 solid;
   color: #000;
