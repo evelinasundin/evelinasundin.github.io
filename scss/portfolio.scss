@@ -10,8 +10,8 @@ ul {
 
 .navbar-nav {
     width: 100%;
+    text-align: center;
     > li {
-        /*   REmove these two to get hamburger menu in to one*/
         float: none;
         display: inline-block;
         > a {
@@ -24,14 +24,12 @@ ul {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
-    font-family: "Poppins";
 }
 
 .navbar-fixed-top {
     background: rgba(38, 38, 38, 1);
     border-color: transparent;
 }
-
 
 /*Chatbubble*/
 

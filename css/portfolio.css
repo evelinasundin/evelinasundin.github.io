@@ -7,9 +7,9 @@ ul {
   text-align: center; }
 
 .navbar-nav {
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
   .navbar-nav > li {
-    /*   REmove these two to get hamburger menu in to one*/
     float: none;
     display: inline-block; }
     .navbar-nav > li > a {
@@ -18,8 +18,7 @@ ul {
       transition: 0.2s; }
 
 .navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-family: "Poppins"; }
+  color: #fff; }
 
 .navbar-fixed-top {
   background: #262626;
