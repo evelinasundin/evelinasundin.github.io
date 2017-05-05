@@ -101,6 +101,12 @@ ul {
     font-size: 12px; }
 
   .img-rounded {
-    top: 150px; } }
+    top: 150px; }
+
+  .linklogo {
+    display: none; }
+
+  .githublogo {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */

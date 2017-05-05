@@ -1,5 +1,9 @@
 /* navbar */
 
+body html {
+overflow-x:hidden;
+}
+
 ul {
     text-align: center;
 }
@@ -20,6 +24,7 @@ ul {
 
 .navbar-default .navbar-nav>li>a {
     color: #fff;
+    font-family: "Poppins";
 }
 
 .navbar-fixed-top {
@@ -131,6 +136,7 @@ ul {
     .img-rounded {
         visibility: hidden;
     }
+
 }
 
 
