@@ -1,5 +1,9 @@
 /* navbar */
 
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@import url("http://fonts.googleapis.com/css?family=Anonymous+Pro");
+
 body html {
 overflow-x:hidden;
 }
@@ -16,7 +20,7 @@ ul {
         display: inline-block;
         > a {
             font-family: "Poppins";
-            font-size: 12px;
+            font-size: 0.85em;
             transition: 0.2s;
         }
     }
@@ -34,38 +38,37 @@ ul {
 /*Chatbubble*/
 
 .bubble {
-    top: 80px;
-    left: 100px;
+    top: 5em;
+    left: 6.25em;
     position: absolute;
-    width: 350px;
-    height: 50px;
-    padding: 0px;
+    width: 21.875em;
+    height: 3.125em;
+    padding: 0em;
     background: rgba(219, 213, 217, 1);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    border-radius: 10px;
+    -webkit-border-radius: 0.625em;
+    -moz-border-radius: 0.625em;
+    border-radius: 0.625em;
 }
 
 .bubble:after {
     content: '';
     position: absolute;
     border-style: solid;
-    border-width: 15px 15px 15px 0;
+    border-width: 1em 1em 1em 0;
     border-color: transparent rgba(219, 213, 217, 1);
     display: block;
     width: 0;
     z-index: 1;
-    left: -15px;
-    top: 10px;
+    left: -0.9375em;
+    top: 0.625em;
 }
 
-@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
 .line-1 {
     position: relative;
     top: 50%;
     width: 66em;
     margin: 0 auto;
-    border-right: 2px solid rgba(257, 38, 38, 0);
+    border-right: 0.125em solid rgba(257, 38, 38, 0);
     font-size: 80%;
     text-align: center;
     white-space: nowrap;
@@ -107,11 +110,11 @@ ul {
 }
 
 .img-rounded {
-    left: 10px;
-    top: 80px;
+    left: 0.625em;
+    top: 5em;
     position: relative;
     border-radius: 50%;
-    border: white 4px solid;
+    border: white 0.25em solid;
 }
 
 
@@ -193,7 +196,7 @@ section {
 
 .imgtext {
     color: #000000;
-    font-size: 20px;
+    font-size: 1.25em;
     position: absolute;
     top: 50%;
     left: 50%;

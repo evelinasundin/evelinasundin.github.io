@@ -17,7 +17,7 @@ ul {
     display: inline-block; }
     .navbar-nav > li > a {
       font-family: "Poppins";
-      font-size: 12px;
+      font-size: 0.85em;
       transition: 0.2s; }
 
 .navbar-default .navbar-nav > li > a {
@@ -26,23 +26,6 @@ ul {
 .navbar-fixed-top {
   background: #262626;
   border-color: transparent; }
-
-.flex-container {
-  margin-top: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap; }
-
-.flex-items {
-  width: 350px;
-  height: 450px;
-  border: 10px solid lightgrey;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: pink; }
 
 .mountainimage {
   min-height: 100%;
@@ -63,37 +46,37 @@ ul {
     margin-left: -512px;
     /* 50% */ } }
 .img-rounded {
-  top: 200px;
+  top: 14em;
   position: relative;
   border-radius: 50%;
-  border: white 4px solid; }
+  border: white 0.3em solid; }
 
 .rubrik {
   color: white;
   font-size: 7rem;
   font-family: "Poppins";
   text-align: center;
-  margin-top: 250px; }
+  margin-top: 3.5em; }
 
 .ingress {
   color: white;
   font-size: 1.5rem;
   font-family: "Poppins";
   text-align: center;
-  margin-top: -10px; }
+  margin-top: -0.7em; }
 
 .linklogo {
   position: absolute;
-  right: 10px;
-  bottom: 10px;
-  height: 35px;
+  right: 0.7142857142857143em;
+  bottom: 0.7142857142857143em;
+  height: 2.5em;
   width: auto; }
 
 .githublogo {
   position: absolute;
-  right: 70px;
-  bottom: 10px;
-  height: 35px;
+  right: 5em;
+  bottom: 0.7142857142857143em;
+  height: 2.5em;
   width: auto; }
 
 @media only screen and (max-width: 400px) {
