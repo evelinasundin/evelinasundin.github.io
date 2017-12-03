@@ -70,7 +70,7 @@ $( document ).ready(function() {
 
       $.ajax({
         method: 'GET',
-        url: "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=evelinasundin&api_key=596bfe5bae097e1c9f7dd354901bc20c&format=json&limit=1",
+        url: "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=evelinasundin&api_key=596bfe5bae097e1c9f7dd354901bc20c&format=json&limit=1",
         dataType: 'JSON',
         success: function(response) {
             console.log(response);
