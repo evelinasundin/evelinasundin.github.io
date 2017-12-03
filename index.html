@@ -1,58 +1,228 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://use.fontawesome.com/84ac7d4c69.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <title>Evelina Sundin</title>
-    <link rel="icon" href="image/es_favi.ico">
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 
-
 <body>
-<!--Navigation fixed to top & toogle when small screen -->
-<nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
+    <div class="fp-container">
+        <button class="hamburger">&#9776;</button>
+        <button class="cross">&#735;</button>
+        <div class="menu">
+            <ul>
+                <a href="#aboutlink">
+                    <li>About</li>
+                </a>
+                <a href="#portfoliolink">
+                    <li>Portfolio</li>
+                </a>
+                <a href="#contactlink">
+                    <li>Contact</li>
+                </a>
             </ul>
         </div>
+        <!--<i class="fa fa-github" aria-hidden="true"></i>
+		<i class="fa fa-linkedin" aria-hidden="true"></i> -->
+        <div class="song-container">
+            <p class="artist-info"></p>
+            <p class="song-info"></p>
+		</div>
+		<div class="header-container">
+        <h1>Evelina Sundin</h1>
+		<h2>Front-end Developer</h2>
+		</div>
+        <span class="mouse"></span>
+        <div class="background-hero-pink">
+        </div>
     </div>
-</nav>
-    <!-- Logos -->
-    <a href="https://github.com/evelinasundin" target="_blank">
-        <img class="githublogo" src="image/GitHub-Mark-Light-120px-plus.png" alt="github-logo">
-    </a>
-    <a href="https://www.linkedin.com/in/evelinasundin/" target="_blank">
-        <img class="linklogo" src="image/In-White-128px-R.png" alt="linkedin-logo">
-    </a>
-    <!-- Background image -->
-    <img class="mountainimage" src="image/mountain.jpg" alt="mountain-img">
-    <!-- Profile image and text -->
-    <img class="img-rounded img-responsive center-block" height="150" width="150" src="image/jag.png" alt="profile-pic">
-    <p class="rubrik"> Evelina Sundin </p>
-    <p class="ingress"> Hi! I'm studying frontend development and do a bit of design! </p>
-
-<script src="https://code.jquery.com/jquery-2.2.1.js" integrity="sha256-eNcUzO3jsv0XlJLveFEkbB8bA7/CroNpNVk3XpmnwHc=" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-
+    <div class="about-container">
+        <h3 class="fadeinscroll" id="aboutlink">About</h3>
+        <div class="fadeinscroll text-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris id sapien ligula. Maecenas at ex ac diam eleifend vestibulum. Phasellus vel massa et metus rhoncus maximus. Integer eget purus vitae arcu vehicula molestie. Ut iaculis, augue vel viverra luctus, nibh tellus volutpat turpis, eu volutpat massa nibh ut urna. Aenean aliquet velit sed tortor mollis consectetur. Integer maximus quam purus, nec euismod augue cursus vitae. Proin sollicitudin eros eget urna euismod condimentum. In rutrum consectetur felis volutpat pellentesque. Phasellus molestie augue tortor, a fermentum purus varius eget. Nullam sagittis, lorem aliquet mollis laoreet, elit tortor tincidunt erat, eu pretium turpis nunc vitae nunc. Mauris fringilla egestas quam, sit amet dapibus nisl lobortis vel. Pellentesque diam orci, rhoncus sed pellentesque id, rhoncus a mi. In placerat, nulla nec scelerisque tempus, velit turpis facilisis elit, sit amet iaculis tellus ligula vel ligula. Sed ultricies libero nec mauris facilisis placerat. Cras dictum facilisis mollis.</p>
+        </div>
+        <span class="fadeinscroll img-line"></span>
+        <div class="img-container">
+            <img src="images/evelina_sundin.jpg" class="fadeinscroll" alt="evelinasundin"></img>
+        </div>
+    </div>
+    <div class="portfolio-container">
+        <h3 class="fadeinscroll" id="portfoliolink">Portfolio</h3>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/developers_bookmark.jpg" alt="developersbookmark" class="portfolio-img"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>Developers Bookmark</h4>
+                    <p>The main focus of the task was to build an application in React that collects and stores data from an own setup database in Firebase. Demands were to be able to log in through firebase authentication system and store information about users and user data.
+					</p></br>
+					<p><strong>Techniques used:</strong></p>
+                    <p>React, Firebase, VanillaJS/ES6, Bootstrap, SASS</p>
+                    </br>
+                    <p>
+                        <a href="#">Visit Github</a>
+                        <a href="#">Visit site</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/albumcollection.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>Album Collection</h4>
+                    <p>
+                        The task was to create an application that collects data from an open API and to show this via HTML DOM. Some of the requirements were, among other things, to collect data from an open API that serves data in form of json, to have good code structure and use of namespaces as well as error handling.
+                    </p>
+                    </br>
+                    <p><strong>Techniques used:</strong></p>
+                    <p>jQuery ajax get() method Vanilla JS/ES6 Module pattern to structure code HTML5 Bootstrap SASS </p>
+                    </br>
+                    <p>
+                        <a href="#">Visit Github</a>
+                        <a href="#">Visit site</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/moviedatabase.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>Movie Database</h4>
+					<p>
+							The assignment was to create an application similar to an movie database in Javascript. The main purpose of the assignment was to implement one or several design patterns.
+							The description of the assignment was to create data structures and functions to be able to handle a "local database" with movies where you were supposed to be able to show movies, add new movies and sort movies according to certain criteria. 
+						</p>
+						</br>
+						<p><strong>Techniques used:</strong></p>
+						<p>HTML5 SASS CSS BOOTSTRAP</p>
+						</br>
+						<p>
+							<a href="#">Visit Github (HTML)</a></br>
+							<a href="#">Visit site(HTML)</a></br>
+							<a href="#">Visit Github(BOOTSTRAP)</a></br>
+							<a href="#">Visit site(BOOTSTRAP)</a></br>
+						</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/SAND.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>SAND</h4>
+                    <p>
+							Group assignment were you were supposed to create a webpage for a fictitious web agency. Two versions were supposed to be included, one with pure HTML and one with Bootstrap. You were supposed to create a design for the site with graphic profile consisting of wireframes, mockups, logo and design choices. 
+							The important parts of the assignment was to create a responsive site that was supposed to be supported in all browsers. Implementation of mobile first strategy was also an important part of the assignment. 
+						</p>
+						</br>
+						<p><strong>Techniques used:</strong></p>
+						<p>Vanilla JS - ES6 - Module Pattern HTML5 CSS DOM manipulation</p>
+						</br>
+						<p>
+							<a href="#">Visit Github</a>
+							<a href="#">Visit site</a>
+						</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/todo.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>Todo-List</h4>
+                    <p>
+				The assignment was to create a to-do list and through DOM-manipulation be able to add and change the content of the page. The demands were - to be able to add several tasks, buttons connected to the task to be able to mark the task as done as well as be able to delete the task and also there should be a ”finished task list” were tasks marked as done should be added. 
+						</p>
+						</br>
+						<p><strong>Techniques used:</strong></p>
+						<p>Vanilla JS HTML5 CSS</p>
+						</br>
+						<p>
+							<a href="#">Visit Github</a>
+							<a href="#">Visit site</a>
+						</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/food.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>Food Generator</h4>
+					<p>
+							The examination was to create an application that returns a random chosen dish from an array everytime you click on a button. There also had to be an option where only vegetarian dishes should show. 
+									</p>
+									</br>
+									<p><strong>Techniques used:</strong></p>
+									<p>Vanilla JS HTML5 CSS</p>
+									</br>
+									<p>
+										<a href="#">Visit Github</a>
+										<a href="#">Visit site</a>
+									</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-row fadeinscrollfast">
+            <div class="project-container">
+                <div class="image-container">
+                    <img src="images/SF-redesign.png" alt="album collection"></img>
+                </div>
+                <div class="project-text-container">
+                    <h4>SF-redesign</h4>
+                    <p>
+							The task was to create a re-design for SF-bio using building mockups in photoshop. The most important parts was to make a responsive design as well as the design choices as typography and color. The design was supposed to contain a navigation module, a film choice module and a film information module. 							
+									</p>
+									</br>
+									<p><strong>Techniques used:</strong></p>
+									<p>Vanilla JS HTML5 CSS</p>
+									</br>
+									<p>
+										<a href="#">Visit Github</a>
+										<a href="#">Visit site</a>
+									</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio container -->
+    <div class="about-container">
+        <h3 class="fadeinscroll" id="contactlink">Contact</h3>
+        <div class="fadeinscroll text-container">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			<p class="mail-tel-text">
+			<strong>Tel:</strong> <a href="tel:+46736796515">+46736796515</a></br>
+            <strong>Mail:</strong> <a href="mailto:evelinasundin@hotmail.se">evelinasundin@hotmail.se</a>  
+			</p>		
+		</div>
+        <div class="social-icon-container fadeinscroll">
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+        </div>
+    </div>
+	<script src="main.js"></script>
+	<footer>
+	<div 
+	</footer>
 </body>
-<!-- Javascript and  -->
+
 </html>
-<!-- Lägg till spotify info -->
