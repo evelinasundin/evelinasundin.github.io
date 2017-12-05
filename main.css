@@ -523,16 +523,41 @@ footer div {
         font-size: 35px;
     }
 
+    .menu {
+        width: 100%;
+        height: 40%;
+    }
+
 }
 
 @media only screen and (max-width: 479px) {
 
+    h3 {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .header-container {
+        top: 43%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
     .fp-container h1 {
-        font-size: 43px;
+        font-size: 68px;
+        line-height: 68px;
+        margin-top: 0;
+        padding-left: 0;
+        margin-bottom: 20px;
     }
 
     .fp-container h2 {
         font-size: 23px;
+        padding-left: 0;
     }
 
     .song-container {
@@ -542,6 +567,27 @@ footer div {
     p.song-info {
         margin-top: 0;
     }
+
+    .background-hero-pink {
+        height: 98%
+    }
+
+    .mouse {
+        bottom: 4%;
+    }
+
+    .img-container {
+        padding-bottom: 55px;
+    }
+   
+    .project-container:last-child {
+        margin-bottom: 40px;
+    }
+
+    footer div {
+        border-bottom: 100px solid #f6cbc9;
+    }
+
 }
 
 
