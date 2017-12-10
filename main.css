@@ -558,8 +558,9 @@ footer div {
 
     .song-container {
         top: 80%;
-        left: 50%;
-        transform: translate(-50%);
+        width: 100%;
+        left: 0;
+        text-align: center
     }
 
     p {
