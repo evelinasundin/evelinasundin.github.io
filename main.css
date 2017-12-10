@@ -535,21 +535,40 @@ footer div {
     h3 {
         margin-top: 0px;
         margin-bottom: 40px;
+        font-size: 60px;
+    } 
+
+    .fp-container {
+        height: 50vh;
+        border: none;
+    }
+
+    .mouse {
+        display: none;
+    }
+
+    .header-container {
+        top: 34%;
+        width: 400px;
+        text-align: center;
+        left: 50%;
+        transform: translateX(-50%) ;
+    
+    }
+
+    .song-container {
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
     }
 
     p {
         font-size: 16px;
     }
 
-    .header-container {
-        top: 43%;
-        transform: translateY(-50%);
-        text-align: center;
-    }
-
     .fp-container h1 {
-        font-size: 68px;
-        line-height: 68px;
+        font-size: 41px;
+        line-height: 47px;    
         margin-top: 0;
         padding-left: 0;
         margin-bottom: 20px;
@@ -558,10 +577,6 @@ footer div {
     .fp-container h2 {
         font-size: 23px;
         padding-left: 0;
-    }
-
-    .song-container {
-        top: 40px;
     }
 
     p.song-info {
@@ -574,6 +589,11 @@ footer div {
 
     .mouse {
         bottom: 4%;
+    }
+
+    .text-container p {
+        width: 95%;
+        margin: 0 auto;
     }
 
     .img-container {

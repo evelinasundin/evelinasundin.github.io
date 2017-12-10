@@ -102,3 +102,13 @@ $( document ).ready(function() {
 
 
     });
+
+    $(window).resize(function(){
+        console.log('resize called');
+        var width = $(window).width();
+        if(width < 479){
+            $('h3:first').removeClass('fadeinscroll');
+            $('.text-container').removeClass('fadeinscroll');
+        }
+     })
+     .resize();//trigger the resize event on page load.
