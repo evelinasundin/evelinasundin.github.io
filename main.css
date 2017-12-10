@@ -571,6 +571,10 @@ footer div {
         font-size: 14px;
     }
 
+    .menu li {
+        padding: 30px;
+    }
+
     .fp-container h1 {
         font-size: 41px;
         line-height: 47px;    
