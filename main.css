@@ -535,12 +535,16 @@ footer div {
     h3 {
         margin-top: 0px;
         margin-bottom: 40px;
-        font-size: 60px;
+        font-size: 45px;
     } 
 
     .fp-container {
         height: 50vh;
         border: none;
+    }
+
+    .menu {
+        height: 100%;
     }
 
     .mouse {
@@ -564,7 +568,7 @@ footer div {
     }
 
     p {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .fp-container h1 {
