@@ -643,6 +643,10 @@ footer div {
         border-bottom: 100px solid #f6cbc9;
     }
 
+    footer {
+        height: 100px;
+    }
+
 }
 
 
