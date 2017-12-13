@@ -56,6 +56,12 @@ p {
 .song-container {
     position: absolute;
     left: 40px;
+    animation: fadein 3s forwards;
+    -moz-animation: fadein 3s forwards; /* Firefox */
+    -webkit-animation: fadein 3s forwards; /* Safari and Chrome */
+    -o-animation: fadein 3s forwards; /* Opera */
+    animation-delay: 2s;
+    opacity: 0;
 }
 
 .song-container p:first-child {
@@ -296,16 +302,29 @@ p.artist-info:before {
     background-color: #333;
     position: absolute;
     top: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     border-radius: 50%;
-    animation: fadein 3s forwards;
-    -moz-animation: fadein 3s forwards; /* Firefox */
-    -webkit-animation: fadein 3s forwards; /* Safari and Chrome */
-    -o-animation: fadein 3s forwards; /* Opera */
+    animation: fadein 3s forwards, btnscroll ease 2.5s infinite;
+    -moz-animation: fadein 3s forwards, btnscroll ease 2.5s infinite; /* Firefox */
+    -webkit-animation: fadein 3s forwards, btnscroll ease 2.5s infinite; /* Safari and Chrome */
+    -o-animation: fadein 3s forwards, btnscroll ease 2.5s infinite; /* Opera */
     animation-delay: 3s;
     -webkit-animation-delay: 3s; /* Safari 4.0 - 8.0 */
     opacity: 0;
+}
+
+@keyframes btnscroll {
+    0% {-webkit-transform: translateY(0);transform: translateY(0);}
+    50% {-webkit-transform: translateY(4px);transform: translateY(4px);}
+    100% {-webkit-transform: translateY(0);transform: translateY(0);}
+}
+
+@-webkit-keyframes btnscroll {
+    0% {-webkit-transform: translateY(0);transform: translateY(0);}
+    50% {-webkit-transform: translateY(4px);transform: translateY(4px);}
+    100% {-webkit-transform: translateY(0);transform: translateY(0);}
 }
   
   .fadeinscroll {
