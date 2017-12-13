@@ -526,13 +526,24 @@ footer div {
     .fp-container h2 {
         font-size: 45px;
     }
+
+    h1, h2 {
+        padding-left: 0;
+    }
+
+    .fp-container h1, .fp-container h2 {
+        padding-left: 0
+    }
+}
+
+@media only screen and (max-width: 800px) { 
+    .header-container {
+        text-align: center;
+        width: 100%
+    } 
 }
 
 @media only screen and (max-width: 680px) {
-
-    .header-container {
-        top: 45%;
-    }
 
     .fp-container h1 {
         font-size: 65px;
@@ -563,7 +574,7 @@ footer div {
     }
 
     .menu {
-        height: 500px;
+        height: 98%;
     }
 
     .mouse {
