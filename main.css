@@ -467,6 +467,7 @@ p.artist-info:before {
 
 .fa-github:before, .fa-linkedin:before, .fa-spotify:before {
     font-size: 25px;
+    transition: all .2s ease-in-out;
 }
 
 .mail-tel-text {
